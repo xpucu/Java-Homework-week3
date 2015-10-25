@@ -38,7 +38,7 @@ public class Problem3 {
             System.out.println("Cannot read file");
         }
 
-        
+
         try (PrintWriter output = new PrintWriter(new FileWriter("res/count-chars.txt", true))){
 
             output.write("Vowels: " + vowels + "\n");
